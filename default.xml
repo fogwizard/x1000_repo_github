@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+<remote  name="origin"   fetch="git://192.168.3.155/x1000" review="review.cyanogenmod.org" />
+<default revision="master" remote="origin" />
+<project path="kernel" name="kernel" remote="origin" />
+<project path="u-boot" name="u-boot" remote="origin" />
+<project path="mozart" name="mozart" remote="origin" />
+</manifest>
