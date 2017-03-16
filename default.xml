@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 <remote  name="origin"   fetch="git://192.168.3.155/x1000" review="review.cyanogenmod.org" />
+<remote  name="ing"      fetch="http://git1.ingenic.cn:8082/gerrit/bootloader/"    review="https://review.ingenic.cn/" />
 <default revision="master" remote="origin" />
 <project path="kernel" name="kernel" remote="origin" />
-<project path="uboot"  name="uboot"  remote="origin" />
+<project path="uboot"  name="uboot"  remote="ing" />
 <project path="mozart" name="mozart" remote="origin" />
 </manifest>
