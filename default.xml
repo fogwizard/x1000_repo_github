@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-<remote  name="origin"   fetch="." review="review.cyanogenmod.org" />
+<remote  name="origin"   fetch="git@github.com:fogwizard/" review="review.cyanogenmod.org" />
 <default revision="master" remote="origin" />
 <remote  name="ing"      fetch="http://git1.ingenic.cn:8082/gerrit/"    review="https://review.ingenic.cn/" />
 <project path="x1000_kernel" name="x1000_kernel" remote="origin" />
