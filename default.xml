@@ -4,6 +4,6 @@
 <default revision="master" remote="origin" />
 <remote  name="ing"      fetch="http://git1.ingenic.cn:8082/gerrit/"    review="https://review.ingenic.cn/" />
 <project path="x1000_kernel" name="x1000_kernel" remote="origin" />
-<project path="x1000_uboot"  name="x1000-uboot"  remote="origin" revision="master"/>
-<project path="x1000_mozart" name="x1000-mozart" remote="origin" />
+<project path="x1000_uboot"  name="x1000_uboot"  remote="origin" revision="master"/>
+<project path="x1000_mozart" name="x1000_mozart" remote="origin" />
 </manifest>
